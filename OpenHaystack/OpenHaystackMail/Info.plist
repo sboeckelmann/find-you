@@ -170,5 +170,9 @@
 		<string>6FF8B077-81FA-45A4-BD57-17CDE79F13A5</string>
 		<string>224E7F96-2099-499C-A501-63FB68C79CD2</string>
 	</array>
+	<key>Supported13.1PluginCompatibilityUUIDs</key>
+	<array>
+		<string>890E3F5B-9490-4828-8F3F-B6561E513FCC</string>
+	</array>
 </dict>
 </plist>
