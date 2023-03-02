@@ -9,8 +9,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface BoringSSL : NSObject
 
 + (NSData *_Nullable)deriveSharedKeyFromPrivateKey:(NSData *)privateKey andEphemeralKey:(NSData *)ephemeralKeyPoint;
@@ -32,6 +30,5 @@ NS_ASSUME_NONNULL_BEGIN
 /// Calculate private key from derived data
 + (NSData *_Nullable)calculatePrivateKeyFromSharedData:(NSData *)sharedData masterBeaconPrivateKey:(NSData *)masterBeaconPrivateKey;
 
-@end
 
-NS_ASSUME_NONNULL_END
+@end

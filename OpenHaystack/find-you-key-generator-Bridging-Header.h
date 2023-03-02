@@ -7,7 +7,9 @@
 //  SPDX-License-Identifier: AGPL-3.0-only
 //
 
-#import "ALTAnisetteData.h"
-#import "AppleAccountData.h"
+#ifndef find_you_key_generator_Bridging_Header_h
+#define find_you_key_generator_Bridging_Header_h
+
 #import "OHBoringSSL.h"
-#import "ReportsFetcher.h"
+
+#endif /* find_you_key_generator_Bridging_Header_h */
